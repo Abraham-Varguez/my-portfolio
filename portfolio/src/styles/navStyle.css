@@ -93,6 +93,14 @@ a:hover::before {
   transition: all 0.3 ease-in-out;
 }
 
+.nav-links-hamburger a::before {
+  transform: none;
+  text-decoration: none;
+}
+
+.nav-links-hamburger a::before {
+  border-bottom: none;
+}
 .nav-links-hamburger li {
   list-style: none;
 }

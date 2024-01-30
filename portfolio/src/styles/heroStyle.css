@@ -1,0 +1,102 @@
+/* PROFILE SECTION */
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 16rem;
+  box-sizing: border-box;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+.pic-container {
+  display: flex;
+  height: 40rem;
+  width: 40rem;
+  margin: auto 0;
+}
+.pic-container img {
+  border-radius: 50%;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+}
+
+.text p {
+  font-weight: 600;
+}
+
+.text__p1 {
+  text-align: center;
+}
+
+.text__p1 {
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+.text__p2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  text-align: center;
+}
+
+.socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.6rem;
+  gap: 1.6rem;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 1.6rem;
+  width: 12.8rem;
+  border-radius: 3.2rem;
+}
+
+.btn-1,
+.btn-2 {
+  border: rgb(53, 53, 53) 2px solid;
+}
+.btn-1:hover,
+.btn-2:hover {
+  cursor: pointer;
+}
+.btn-1,
+.btn-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+.btn-1:hover {
+  background: rgb(0, 0, 0);
+}
+.btn-2 {
+  background: none;
+}
+.btn-2:hover {
+  border: rgb(255, 255, 255) 2px solid;
+}
