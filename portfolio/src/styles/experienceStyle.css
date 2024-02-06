@@ -1,0 +1,47 @@
+.e-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.e-description {
+  font-size: 1.6rem;
+}
+.e-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1rem;
+}
+
+#experience {
+  position: relative;
+  margin-top: 5rem;
+}
+
+.expereince-sub-title {
+  color: #3d3d3d;
+  font-weight: 600;
+  font-size: 2.8rem;
+  margin-top: 3.2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-around;
+  margin: 10rem 0;
+}
+
+article {
+  display: flex;
+  width: 25rem;
+  justify-content: flex-start;
+  gap: 2rem;
+}

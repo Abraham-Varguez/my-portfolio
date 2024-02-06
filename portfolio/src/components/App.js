@@ -1,11 +1,15 @@
-import Hero from "./Hero";
+import About from "./About";
+import Profile from "./Profile";
 import Nav from "./Nav";
+import Expereince from "./Experience/Experience";
 
 function App() {
   return (
     <>
       <Nav />
-      <Hero />
+      <Profile />
+      <About />
+      <Expereince />
     </>
   );
 }

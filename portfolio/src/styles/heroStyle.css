@@ -32,12 +32,9 @@ section {
 }
 
 .text__p1 {
-  text-align: center;
-}
-
-.text__p1 {
   font-size: 2.8rem;
   margin-bottom: 1.6rem;
+  text-align: center;
 }
 .text__p2 {
   font-size: 2.2rem;

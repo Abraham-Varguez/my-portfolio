@@ -11,6 +11,7 @@
 html {
   font-size: 62.5%; /* 1 rem = 10px */
   scroll-behavior: smooth;
+  background-color: #f5f1ee;
 }
 
 code {
