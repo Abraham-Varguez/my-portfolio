@@ -54,3 +54,32 @@
   background-color: #000000;
   border: none;
 }
+
+@media screen and (max-width: 1450px) {
+  .projects {
+    height: auto;
+  }
+  section {
+    height: auto;
+  }
+
+  .arrow {
+    display: none;
+  }
+  .project-details-container {
+    flex-direction: column;
+  }
+
+  .project-text {
+    min-height: auto;
+  }
+  .p-sub-details-container {
+    min-height: auto;
+  }
+  .slide {
+    min-height: auto;
+  }
+  .arrows {
+    top: 50%;
+  }
+}

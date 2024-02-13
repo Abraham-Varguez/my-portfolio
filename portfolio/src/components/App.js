@@ -3,6 +3,8 @@ import Profile from "./Profile";
 import Nav from "./Nav";
 import Expereince from "./Experience/Experience";
 import Project from "./Projects/Project";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       <Profile />
       <About />
       <Expereince />
-      <Project/>
+      <Project />
+      <Contact />
+      <Footer />
     </>
   );
 }

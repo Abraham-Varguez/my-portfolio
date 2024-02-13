@@ -91,6 +91,7 @@ a:hover::before {
   color: block;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  background-color: #f5f1ee;
 }
 
 .nav-links-hamburger a::before {

@@ -6,13 +6,13 @@ import { IoChevronDownCircleOutline } from "react-icons/io5";
 
 const Project = () => {
   const handleIconClick = () => {
-    window.location.href = "/#projects";
+    window.location.href = "/#contact";
   };
   return (
-    <section className="projects">
+    <section className="projects" id="projects">
       <p className="text-p1">Browse my Recent</p>
       <h1 className="title">Projects</h1>
-      <div className="project-details-container" id="projects">
+      <div className="project-details-container">
         {projectData.map((objData, index) => (
           <Pcontainers
             key={index}

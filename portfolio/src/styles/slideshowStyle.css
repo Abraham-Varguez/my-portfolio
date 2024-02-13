@@ -15,12 +15,12 @@
 
 .arrows {
   position: absolute;
-  top: 90%;
+  top: 50%;
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
   width: 100%;
-  z-index: 1;
+  z-index: 9;
 }
 
 .arrow-left {
