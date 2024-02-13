@@ -4,6 +4,9 @@
 
 Welcome to my portfolio website! This project serves as a showcase of my coding skills, featuring various projects I've worked on. The design concept draws inspiration from a YouTube video by the channel "How to become a developer," but I implemented it using React to highlight my proficiency in modern web development.
 
+Link to his video here
+https://www.youtube.com/watch?v=ldwlOzRvYOU
+
 ## Features
 
 - **Responsive Design:** The website is designed to be responsive, adapting to different screen sizes. The navigation incorporates state management to transform into a hamburger menu on smaller screens, providing a seamless user experience.
