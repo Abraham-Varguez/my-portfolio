@@ -1,6 +1,13 @@
 import React from "react";
 
 const Footer = () => {
+  const handleGithub = () => {
+    window.open(
+      "https://github.com/Abraham-Varguez/my-portfolio",
+      "_blank",
+      "noopener noreferrer"
+    );
+  };
   return (
     <footer>
       <nav>
@@ -19,13 +26,17 @@ const Footer = () => {
               <a href="#contact">Contact</a>
             </li>
             <li>
-              <a href="#contact">My Code</a>
+              <a href="#contact" onClick={handleGithub}>
+                My Code
+              </a>
             </li>
           </ul>
         </div>
       </nav>
-      
-      <p className="text-p1">Copyright &#169; 2024 Abraham Varguez. All Rights Reserved.</p>
+
+      <p className="text-p4">
+        Copyright &#169; 2024 Abraham Varguez. All Rights Reserved.
+      </p>
     </footer>
   );
 };
