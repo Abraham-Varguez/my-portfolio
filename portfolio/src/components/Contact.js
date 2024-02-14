@@ -17,9 +17,7 @@ const Contact = () => {
       <div className="contact-info-upper-container">
         <div className="contact-info-container">
           <IoMdMail className="c-icon" />
-          <p className="text-p3 email">
-              abrahamvarguez92@gmail.com
-          </p>
+          <p className="text-p3 email">abrahamvarguez92@gmail.com</p>
         </div>
         <div className="contact-info-container">
           <FaLinkedin className="c-icon" />

@@ -2,8 +2,8 @@ const expereinceData = [
   {
     title: "FrontEnd Development",
     data: [
-      { title: "HTML & CSS", description: "Expereinced" },
-      { title: "React", description: "Expereienced" },
+      { title: "HTML & CSS", description: "Experienced" },
+      { title: "React", description: "Experienced" },
       { title: "Javascript", description: "Intermediate" },
       { title: "Typescript", description: "Basics" },
       { title: "SASS", description: "Intermediate" },

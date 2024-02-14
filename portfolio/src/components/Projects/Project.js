@@ -9,9 +9,11 @@ const Project = () => {
     window.location.href = "/#contact";
   };
   return (
-    <section className="projects" id="projects">
+    <section className="projects">
       <p className="text-p1">Browse my Recent</p>
-      <h1 className="title">Projects</h1>
+      <h1 className="title" id="projects">
+        Projects
+      </h1>
       <div className="project-details-container">
         {projectData.map((objData, index) => (
           <Pcontainers
@@ -21,6 +23,7 @@ const Project = () => {
             link={objData.link}
             gitHub={objData.gitHub}
             images={objData.images}
+            subTitle={objData.subTitle}
           />
         ))}
       </div>

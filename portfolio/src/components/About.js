@@ -22,7 +22,7 @@ const About = () => {
           <div className="about-containers">
             <div className="details-container">
               <TbBrandMinecraft className="a-icon" />
-              <h3>Expereince</h3>
+              <h3>Experience</h3>
               <p>
                 1+ year <br /> Web Development
               </p>

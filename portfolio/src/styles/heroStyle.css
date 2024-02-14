@@ -90,10 +90,25 @@ section {
 }
 .btn-1:hover {
   background: rgb(0, 0, 0);
+  color: white;
 }
 .btn-2 {
   background: none;
 }
 .btn-2:hover {
   border: rgb(255, 255, 255) 2px solid;
+}
+
+.btn-2:hover .contact-info-btn {
+  color: white;
+}
+
+.contact-info-btn::before {
+  content: none;
+}
+
+.website-info {
+  margin-left: 5rem;
+  font-size: 1.4rem;
+  font-style: italic;
 }
