@@ -46,7 +46,10 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <p className="website-info">This Project was created with React.js</p>
+      <p className="website-info">
+        This Project was created with React.js and will be mobile responsive in
+        the coming future
+      </p>
     </>
   );
 };
