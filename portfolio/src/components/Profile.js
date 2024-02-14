@@ -34,11 +34,9 @@ const Hero = () => {
             <button className="btn btn-1" onClick={handleResume}>
               Resume
             </button>
-            <button className="btn btn-2">
-              <a className="contact-info-btn" href="#contact">
-                Contact Info
-              </a>
-            </button>
+            <a className="contact-info-btn" href="#contact">
+              <button className="btn btn-2">Contact Info</button>
+            </a>
           </div>
           <div className="socials-container">
             <FaLinkedin className="icon" onClick={handleLinkedIn} />
