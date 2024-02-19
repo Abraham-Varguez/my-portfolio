@@ -45,3 +45,9 @@ article {
   justify-content: flex-start;
   gap: 2rem;
 }
+
+.experience-containers {
+  gap: 2rem;
+  margin: 2rem 0;
+  display: flex;
+}

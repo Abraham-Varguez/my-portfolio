@@ -5,10 +5,11 @@ import Expereince from "./Experience/Experience";
 import Project from "./Projects/Project";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import "../styles/mediaQueries.css"
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Nav />
       <Profile />
       <About />
@@ -16,7 +17,7 @@ function App() {
       <Project />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

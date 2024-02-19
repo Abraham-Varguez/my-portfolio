@@ -13,7 +13,7 @@ const Experience = () => {
       <p className="text-p1">Explore My</p>
       <h1 className="title"> Experience</h1>
       <div className="experience-details-container">
-        <div className="about-containers">
+        <div className="experience-containers">
           {expereinceData.map((objData, index) => (
             <Econtainers
               key={index}

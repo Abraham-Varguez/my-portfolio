@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import "../styles/navStyle.css";
+import "../styles/mediaQueries.css";
 import { IoIosMenu } from "react-icons/io";
 import { VscChromeClose } from "react-icons/vsc";
 

@@ -27,7 +27,7 @@ const Footer = () => {
             </li>
             <li>
               <a href="#contact" onClick={handleGithub}>
-                My Code
+                Code
               </a>
             </li>
           </ul>
