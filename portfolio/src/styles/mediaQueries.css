@@ -62,22 +62,6 @@
     margin: 0 auto;
   }
 }
-/* 
-@media screen and (max-width: 1450px) {
-  .project-text {
-    min-height: auto;
-  }
-  .p-sub-details-container {
-    min-height: auto;
-  }
-  .slide {
-    min-height: auto;
-  }
-  .project-details-container {
-    min-height: auto;
-    width: fit-content;
-  }
-} */
 
 @media screen and (max-width: 600px) {
   #contact,

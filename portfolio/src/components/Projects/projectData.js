@@ -20,10 +20,10 @@ const projectData = [
   },
   {
     title: "E-COMMERCE",
-    subTitle: "React,Express, MongoDB, Redux, JWT",
+    subTitle: "React,Express, MongoDB, Redux",
     description:
       "Discover my solar e-commerce project, where tech seamlessly integrates with sustainability. Immerse yourself in a sleek login, a dynamic price filter, and a robust backend linked to MongoDB. Amped up with Redux and secured by JWT tokens, it's not just functional—it's hosted on Render, too. This project stands as a testament to my coding skills, skillfully combining React, Node.js, and Express to craft a user-friendly shopping experience. A digital showcase of Solar Products.",
-    link: "https:/solar-stars.dev",
+    link: "https://solar-stars.dev",
     gitHub: "https://github.com/Abraham-Varguez/ecommerce-v2.git",
     images: [solar2, solar1, solar3],
   },
@@ -31,7 +31,7 @@ const projectData = [
     title: "Hope Hacks",
     subTitle: "SASS, JavaScript, Express",
     description:
-      "Explore my group project dedicated to public wellness—a mock organization website fostering healthy living. Leading the charge on the front end, I designed the Navigation bar, Hero section of all pages, as well as the Home and Meal-Plan pages. Using SCSS, the site boasts not just style, but also functionality with a JavaScript. The Meal-Plan page dynamically unfolds from an API based on search keywords—a testament to the seamless integration of design and technology in promoting a healthier lifestyle.",
+      "Explore my group project dedicated to public wellness—a mock organization website fostering healthy living. Leading the charge on the front end, I designed the Navigation bar, Hero section of all pages, as well as the Home and Meal-Plan pages. Using SCSS, the site boasts not just style, but also functionality with a JavaScript. The Meal-Plan page dynamically unfolds from an API based on search keywords—a integration of design and technology in promoting a healthier lifestyle.",
     link: "https://aws.dpr3nmbgqla9c.amplifyapp.com/",
     gitHub: "https://github.com/Abraham-Varguez/Hope-Hacks",
     images: [l2p3, l2p2, l2p1],
