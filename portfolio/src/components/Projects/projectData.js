@@ -12,6 +12,7 @@ const projectData = [
   {
     title: "Gateway",
     subTitle: "CSS and HTML",
+    mobile: "Desktop Only",
     description:
       "Explore my gateway to the tech world—a visually appealing website showcasing my coding prowess using CSS and HTML. Immerse yourself in the digital ambiance of a mock Mexican restaurant, featuring Home, Contact, and Menu pages. This project serves as a flavorful introduction to my journey, seamlessly blending creativity and coding for an immersive online experience. It's a simple yet effective demonstration of my skills in web development and design.",
     link: "https://main.d26w2bw7dkjq6j.amplifyapp.com/index.html",
@@ -21,6 +22,7 @@ const projectData = [
   {
     title: "E-COMMERCE",
     subTitle: "React,Express, MongoDB, Redux",
+    mobile: "Desktop and Mobile",
     description:
       "Discover my solar e-commerce project, where tech seamlessly integrates with sustainability. Immerse yourself in a sleek login, a dynamic price filter, and a robust backend linked to MongoDB. Amped up with Redux and secured by JWT tokens, it's not just functional—it's hosted on Render, too. This project stands as a testament to my coding skills, skillfully combining React, Node.js, and Express to craft a user-friendly shopping experience. A digital showcase of Solar Products.",
     link: "https://solar-stars.dev",
@@ -30,6 +32,7 @@ const projectData = [
   {
     title: "Hope Hacks",
     subTitle: "SASS, JavaScript, Express",
+    mobile: "Desktop Only",
     description:
       "Explore my group project dedicated to public wellness—a mock organization website fostering healthy living. Leading the charge on the front end, I designed the Navigation bar, Hero section of all pages, as well as the Home and Meal-Plan pages. Using SCSS, the site boasts not just style, but also functionality with a JavaScript. The Meal-Plan page dynamically unfolds from an API based on search keywords—a integration of design and technology in promoting a healthier lifestyle.",
     link: "https://aws.dpr3nmbgqla9c.amplifyapp.com/",

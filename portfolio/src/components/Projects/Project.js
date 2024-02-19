@@ -24,6 +24,7 @@ const Project = () => {
             gitHub={objData.gitHub}
             images={objData.images}
             subTitle={objData.subTitle}
+            mobile={objData.mobile}
           />
         ))}
       </div>

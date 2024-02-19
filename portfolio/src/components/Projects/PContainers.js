@@ -8,6 +8,7 @@ const Pcontainers = ({
   gitHub,
   images,
   subTitle,
+  mobile,
 }) => {
   const handleGithub = () => {
     window.open(gitHub, "_blank", "noopener noreferrer");
@@ -22,8 +23,9 @@ const Pcontainers = ({
         <Slideshow images={images} />
       </div>
       <h2 className="project-title">{title}</h2>
-      <p className="text-p4">{subTitle}</p>
+      <p className="text-p1">{subTitle}</p>
       <p className="project-text">{description}</p>
+      <p className="text-p4">**{mobile}**</p>
       <div className="p-btn-container">
         <button className="btn project-btn" onClick={handleGithub}>
           GitHub
